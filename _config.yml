@@ -36,12 +36,16 @@ exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "
 
 valine_comment:
   enable: true
+  notify: true
 # app_id
   leancloud_appid: B61V12JS8A2TLgHB91pkadao-gzGzoHsz
 # app_key
   leancloud_appkey: 0g4pO989KlypNpyuPXdew2GG
 # placeholde
-  placeholder: “说点什么吧！！！"
+  placeholder: “回复"
+   new Valine({
+    avatar:'' // (''/mp/identicon/monsterid/wavatar/robohash/retro/hide)
+})
 # Separator
 #excerpt_separator: <!-- more -->
 leancloud_visitors:
