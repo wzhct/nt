@@ -41,10 +41,13 @@ valine_comment:
 # app_key
   leancloud_appkey: 0g4pO989KlypNpyuPXdew2GG
 # placeholde
-  placeholder: “Just go go"
+  placeholder: “说点什么吧！！！"
 # Separator
 #excerpt_separator: <!-- more -->
-
+leancloud_visitors:
+  enable: true
+  app_id: <B61V12JS8A2TLgHB91pkadao-gzGzoHsz>
+  app_key: <0g4pO989KlypNpyuPXdew2GG>
 # Code Highlighter
 ## 'pygments' is unsupported on GitHub Pages now.
 highlighter: rouge
@@ -160,8 +163,8 @@ menu_icons:
 
 # Schemes
 #scheme: Muse
-#scheme: Mist
-scheme: Pisces
+scheme: Mist
+#scheme: Pisces
 
 
 # ---------------------------------------------------------------
