@@ -4,7 +4,7 @@
 # ---------------------------------------------------------------
 
 # Site
-title: 欢迎光临
+title: Hello!!
 subtitle:
 description:
 author: John Doe
@@ -36,16 +36,13 @@ exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "
 
 valine_comment:
   enable: true
-  notify: true
 # app_id
   leancloud_appid: B61V12JS8A2TLgHB91pkadao-gzGzoHsz
 # app_key
   leancloud_appkey: 0g4pO989KlypNpyuPXdew2GG
 # placeholde
   placeholder: “回复"
-   new Valine({
-    avatar:'' // (''/mp/identicon/monsterid/wavatar/robohash/retro/hide)
-})
+  notify: true
 # Separator
 #excerpt_separator: <!-- more -->
 leancloud_visitors:
@@ -162,10 +159,10 @@ menu_icons:
 
 
 # ---------------------------------------------------------------
-Scheme Settings
+#Scheme Settings
 # ---------------------------------------------------------------
 
-# Schemes
+Schemes
 #scheme: Muse
 #scheme: Mist
 #scheme: Pisces
