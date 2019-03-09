@@ -533,10 +533,10 @@ rating:
 
 # Show number of visitors to each article.
 # You can visit https://leancloud.cn get AppID and AppKey.
-leancloud_visitors:
-  enable: true
-  app_id: <B61V12JS8A2TLgHB91pkadao-gzGzoHsz>
-  app_key: <0g4pO989KlypNpyuPXdew2GG>
+#leancloud_visitors:
+  enable: false
+  app_id: <>
+  app_key: <>
 
 # Show PV/UV of the website/page with busuanzi.
 # Get more information on http://ibruce.info/2015/04/04/busuanzi/
@@ -565,7 +565,7 @@ busuanzi_count:
 
 
 # Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO
-baidu_push: true
+baidu_push: false
 
 # Google Calendar
 # Share your recent schedule to others via calendar page
@@ -590,7 +590,7 @@ algolia_search:
   hits:
     per_page: 10
   labels:
-    input_placeholder: 搜索文章
+    input_placeholder: Search for Posts
     hits_empty: "搜索失败: ${query}"
     hits_stats: "${hits} results found in ${time} ms"
 
