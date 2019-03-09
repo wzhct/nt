@@ -129,11 +129,11 @@ index_with_subtitle: false
 
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
-  home: /主页/
-  categories: /分类/
+  home: /
+  categories: /categories/
   #about: /about/
-  archives: /时间轴/
-  tags: /标签/
+  archives: /archives/
+  tags: /tags/
   #sitemap: /sitemap.xml
   #commonweal: /404.html
 
@@ -535,9 +535,9 @@ rating:
 # Show number of visitors to each article.
 # You can visit https://leancloud.cn get AppID and AppKey.
 leancloud_visitors:
-  enable: false
-  app_id: #<app_id>
-  app_key: #<app_key>
+  enable: true
+  app_id: <B61V12JS8A2TLgHB91pkadao-gzGzoHsz>
+  app_key: <0g4pO989KlypNpyuPXdew2GG>
 
 # Show PV/UV of the website/page with busuanzi.
 # Get more information on http://ibruce.info/2015/04/04/busuanzi/
