@@ -43,6 +43,7 @@ valine_comment:
 # placeholde
   placeholder: “回复"
   notify: true
+  pageSize: 15
 # Separator
 #excerpt_separator: <!-- more -->
 
@@ -162,9 +163,9 @@ menu_icons:
 # ---------------------------------------------------------------
 
 #Schemes
-scheme: Muse
+#scheme: Muse
 #scheme: Mist
-#scheme: Pisces
+scheme: Pisces
 
 
 # ---------------------------------------------------------------
